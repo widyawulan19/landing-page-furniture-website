@@ -1,0 +1,140 @@
+.about-container{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-container h3{
+    letter-spacing: 2px;
+}
+.about-container h2{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.about-container p{
+    opacity: 50%;
+}
+.text-about{
+    padding: auto;
+}
+.image-about{
+    padding-left: 50px;
+}
+.image-about img{
+    width: 90%;
+    margin: auto;
+}
+.text-about button{
+    background-color:  #EAE9E5;
+    border: 1px solid #EAE9E5;
+    width: 10vw;
+    height: 5vh;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    float: right;
+    letter-spacing: 2px;
+}
+.text-about button:hover{
+    border-bottom: 1px solid black;
+}
+.text-about hr{
+    width: 13vw;
+    margin-bottom: 30px;
+}
+@media (max-width: 1000px) {
+    .about-container {
+        margin-top: 5vh;
+        grid-template-columns: 1fr; /* Mengubah jumlah kolom menjadi satu pada layar dengan lebar maksimum 1000px */
+    }
+
+    .text-about button {
+        width: 100%; /* Tombol akan mengambil lebar penuh pada layar dengan lebar maksimum 1000px */
+        float: none; /* Hapus float */
+    }
+}
+
+@media (max-width: 800px) {
+    .about-container {
+        margin-top: 5vh;
+        grid-template-columns: 1fr; /* Mengubah jumlah kolom menjadi satu pada layar dengan lebar maksimum 800px */
+    }
+
+    .text-about {
+        grid-column: 1 / -1; /* Menyatukan kolom teks menjadi satu pada layar dengan lebar maksimum 800px */
+        text-align: center; /* Mengatur teks ke tengah */
+    }
+
+    .image-about {
+        padding-left: 0; /* Menghapus padding kiri pada gambar */
+        padding-top: 20px; /* Memberikan padding atas pada gambar */
+    }
+
+    .text-about button {
+        width: 100%; /* Tombol akan mengambil lebar penuh */
+        float: none; /* Hapus float */
+    }
+    .text-about hr{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-about button {
+        width: 100%; /* Tombol akan mengambil lebar penuh pada layar dengan lebar maksimum 767px */
+    }
+}
+
+/* @media (width <= 1000px){
+    .about-container{
+        margin-top: 5vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .text-about button{
+        width: 50%;
+        height: 5vh;
+        float: inline-end;
+    }
+}
+
+@media (width <= 800px){
+    .about-container{
+        margin-top: 5vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .text-about button{
+        width: 50%;
+        height: 5vh;
+        float: inline-end;
+    }
+}
+
+@media (width <= 799px){
+    .about-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .text-about button{
+        width: 50%;
+        height: 5vh;
+        float:inline-start
+    }
+}
+
+@media (width <= 600px){
+    .about-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .text-about button{
+        width: 50%;
+        height: 5vh;
+        float:inline-start
+    }
+} */
