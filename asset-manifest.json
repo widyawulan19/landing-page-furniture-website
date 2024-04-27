@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-page-furniture-website/static/css/main.540553f3.css",
-    "main.js": "/landing-page-furniture-website/static/js/main.9b865ad9.js",
+    "main.js": "/landing-page-furniture-website/static/js/main.24fcea36.js",
     "static/js/453.a5363aef.chunk.js": "/landing-page-furniture-website/static/js/453.a5363aef.chunk.js",
     "static/media/7rivers.png": "/landing-page-furniture-website/static/media/7rivers.4e2666c998161b51c9bc.png",
     "static/media/serv2.jpeg": "/landing-page-furniture-website/static/media/serv2.cc050594c6366a3d3056.jpeg",
@@ -18,11 +18,11 @@
     "static/media/serv1.jpeg": "/landing-page-furniture-website/static/media/serv1.0cc7c49d068ebc2e02ba.jpeg",
     "index.html": "/landing-page-furniture-website/index.html",
     "main.540553f3.css.map": "/landing-page-furniture-website/static/css/main.540553f3.css.map",
-    "main.9b865ad9.js.map": "/landing-page-furniture-website/static/js/main.9b865ad9.js.map",
+    "main.24fcea36.js.map": "/landing-page-furniture-website/static/js/main.24fcea36.js.map",
     "453.a5363aef.chunk.js.map": "/landing-page-furniture-website/static/js/453.a5363aef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.540553f3.css",
-    "static/js/main.9b865ad9.js"
+    "static/js/main.24fcea36.js"
   ]
 }
